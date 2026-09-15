@@ -3,14 +3,16 @@
   --color-mentoralm-navy: #101d3f;
   --color-navy-surface: #18284f;
   --color-navy-elevated: #223560;
-  --color-white: #ffffff;
-  --color-soft-neutral: #f4f6f8;
-  --color-soft-neutral-strong: #e9edf2;
+  --color-white: #fffdf8;
+  --color-soft-neutral: #f5f3ee;
+  --color-soft-neutral-strong: #ebe8df;
   --color-dark-text: #15213f;
   --color-muted-text: #68748d;
   --color-subtle-text: #8b95a8;
-  --color-border: #d9dfe8;
-  --color-border-strong: #b9c3d2;
+  --color-border: #d9d8d1;
+  --color-border-strong: #aeb3bb;
+  --color-warm-paper: #f7f4ec;
+  --color-ink-soft: #39445e;
 
   /* Product accent families */
   --color-ai-cyan: #20d6df;
@@ -26,7 +28,7 @@
   /* Controlled accent surfaces */
   --surface-page: var(--color-white);
   --surface-soft: var(--color-soft-neutral);
-  --surface-subtle: #f8fafc;
+  --surface-subtle: #fbfaf6;
   --surface-card: var(--color-white);
   --surface-inverse: var(--color-mentoralm-navy);
   --surface-inverse-raised: var(--color-navy-surface);
@@ -94,7 +96,7 @@
   --space-20: 5rem;
   --space-24: 6rem;
   --space-section: clamp(4rem, 8vw, 8rem);
-  --page-gutter: clamp(1rem, 4vw, 4rem);
+  --page-gutter: clamp(1.25rem, 5vw, 5rem);
 
   /* Shape, borders, and shadows */
   --radius-xs: 0.25rem;

@@ -1,6 +1,6 @@
 # MentoraLM Website
 
-Phase 2 Hero experience for the MentoraLM parent-brand education and career ecosystem website.
+Production homepage for the MentoraLM parent-brand education and career ecosystem website.
 
 ## Run & Operate
 
@@ -24,8 +24,7 @@ Phase 2 Hero experience for the MentoraLM parent-brand education and career ecos
 
 - `artifacts/mentoralm-website/src/App.tsx` — route map and shared site shell
 - `artifacts/mentoralm-website/src/components/navigation/` — responsive structural navigation
-- `artifacts/mentoralm-website/src/components/sections/` — Hero implementation plus later-phase homepage section placeholders
-- `artifacts/mentoralm-website/src/components/hero/` — data-driven learner journey visual and Hero content primitives
+- `artifacts/mentoralm-website/src/components/sections/` — production homepage sections and footer
 - `artifacts/mentoralm-website/src/components/ui/logo.tsx` — reusable official-logo asset seam
 - `artifacts/mentoralm-website/src/components/ui/foundation.tsx` — reusable container, section, heading, text, card, badge, and divider primitives
 - `artifacts/mentoralm-website/src/data/products.ts` — typed seven-slot product/module model
@@ -35,20 +34,20 @@ Phase 2 Hero experience for the MentoraLM parent-brand education and career ecos
 
 ## Architecture decisions
 
-- The homepage Hero is the only implemented marketing section; all later homepage sections remain labeled placeholders.
-- The Hero communicates a learner-first journey through Understand, Build, Explore, and Move forward, with subtle links to the three flagship product routes.
+- The homepage is a production editorial parent-brand experience: Hero, problem, intelligence, modules, process, Menti, rationale, final CTA, and footer.
+- The homepage uses no Phase 0 foundation panels, architecture markers, placeholder sections, asset-pending labels, fake metrics, or unverified social proof.
 - Product/module metadata is centralized in `src/data/products.ts`, including four unnamed upcoming module slots.
 - The official logo is not recreated; the `Logo` component accepts a supplied asset when it becomes available.
 - Phase 1 visual infrastructure is centralized in `src/styles/tokens.css` and `src/styles/globals.css`; components consume semantic tokens instead of scattered brand values.
-- The site is frontend-only in this phase; no API, database, authentication, analytics, or external integrations are required.
+- The site remains frontend-only; no API, database, authentication, analytics, or external integrations are required.
 
 ## Product
 
-The site provides the structural parent-brand shell for MentoraLM, including accessible navigation, future homepage anchors, typed flagship/upcoming module architecture, and placeholder routes for the three known products.
+The site provides the parent-brand homepage for MentoraLM, accessible navigation, typed flagship/upcoming module architecture, and working routes for the three known products.
 
 ## User preferences
 
-- Keep work in the current phase focused on the Hero; do not begin Phase 3 or later product experiences unless explicitly requested.
+- Keep future work focused on verified content and real product integration; do not invent proof points or replace the product route architecture without an explicit request.
 
 ## Gotchas
 
