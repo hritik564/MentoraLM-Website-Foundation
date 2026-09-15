@@ -1,0 +1,857 @@
+MENTORALM MAIN WEBSITE — PHASE 1
+BRAND + VISUAL DESIGN SYSTEM
+
+PHASE 0 IS COMPLETE AND LOCKED.
+
+You are now implementing PHASE 1 ONLY.
+
+IMPORTANT:
+Do NOT build the Hero.
+Do NOT build homepage sections.
+Do NOT build product experiences.
+Do NOT build module cards.
+Do NOT build the ecosystem.
+Do NOT add backend functionality.
+Do NOT add APIs.
+Do NOT add authentication.
+Do NOT add databases.
+
+Phase 1 exists ONLY to establish the reusable MentoraLM visual design system that all future sections will use.
+
+The goal is to create a sophisticated, premium, modern design system inspired by the QUALITY and INFORMATION DENSITY of websites such as:
+
+https://www.masaischool.com/
+
+but with a completely original MentoraLM identity.
+
+Do NOT copy Masai School's design, branding, layout, text, colours, or components.
+
+==================================================
+1. BRAND POSITIONING
+==================================================
+
+MentoraLM is an education + career ecosystem powered by intelligent technology and human expertise.
+
+The website should eventually feel like:
+
+- a serious technology company
+- a premium education platform
+- a career ecosystem
+- intelligent
+- trustworthy
+- modern
+- ambitious
+- human
+- youthful without being childish
+
+Avoid the visual language of:
+
+- generic AI startups
+- cryptocurrency websites
+- SaaS templates
+- generic coaching websites
+- university websites
+- excessive glassmorphism
+- excessive neon
+- generic "AI robot" imagery
+
+The design should communicate:
+
+CLARITY
+INTELLIGENCE
+GROWTH
+OPPORTUNITY
+
+==================================================
+2. DESIGN PHILOSOPHY
+==================================================
+
+The old MentoraLM website experiment was too minimalist and too focused on demonstrating a design system.
+
+Do NOT repeat that mistake.
+
+The new system must support a website with meaningful visual density.
+
+Premium does NOT mean empty.
+
+The final website should be capable of using:
+
+- editorial sections
+- product interfaces
+- interactive visualisations
+- diagrams
+- cards
+- timelines
+- progress systems
+- dashboards
+- data-like UI
+- product previews
+- storytelling sections
+
+The design system must therefore support both:
+
+EDITORIAL MOMENTS
+
+and
+
+PRODUCT MOMENTS.
+
+==================================================
+3. COLOUR SYSTEM
+==================================================
+
+Create centralized colour tokens.
+
+Do NOT scatter raw colour values throughout components.
+
+Primary foundation:
+
+MENTORALM NAVY
+A deep sophisticated navy used for:
+- navigation
+- dark sections
+- primary text on selected surfaces
+- major contrast areas
+
+WHITE
+Primary light surface.
+
+SOFT NEUTRAL
+For secondary section backgrounds.
+
+DARK TEXT
+For primary typography.
+
+MUTED TEXT
+For secondary information.
+
+--------------------------------------------------
+ACCENT SYSTEM
+--------------------------------------------------
+
+MentoraLM has three flagship products.
+
+Each product gets a controlled accent family.
+
+01 — AI CAREER COUNSELLING
+
+Primary:
+CYAN
+
+Secondary:
+BLUE
+
+Meaning:
+INTELLIGENCE
+CLARITY
+DIRECTION
+
+02 — CAREERIGNITE
+
+Primary:
+PURPLE
+
+Secondary:
+MAGENTA
+
+Meaning:
+GROWTH
+ACTION
+CAPABILITY
+
+03 — GRADLM
+
+Primary:
+ORANGE
+
+Secondary:
+GOLD
+
+Meaning:
+OPPORTUNITY
+GLOBAL EDUCATION
+JOURNEY
+
+--------------------------------------------------
+MENTORALM BRAND GRADIENT
+--------------------------------------------------
+
+The MentoraLM logo contains a multicolour progression.
+
+Use that multicolour identity as a subtle brand signature.
+
+It may appear in:
+
+- small accent lines
+- gradient borders
+- active navigation indicators
+- subtle ambient backgrounds
+- ecosystem visualisations
+- selected CTA treatments
+
+DO NOT use the full multicolour gradient as the background of large sections.
+
+DO NOT make the entire website rainbow coloured.
+
+The base website must remain sophisticated and controlled.
+
+==================================================
+4. COLOUR USAGE RATIO
+==================================================
+
+Establish a rough visual ratio:
+
+70–80%
+neutral / white / navy foundation
+
+15–20%
+product or brand accent
+
+5%
+strong gradient/highlight moments
+
+The accents should feel intentional.
+
+==================================================
+5. TYPOGRAPHY
+==================================================
+
+Create a reusable typography system.
+
+PRIMARY UI/BODY FONT:
+
+Use a modern, highly readable sans-serif.
+
+The font should work well for:
+
+- navigation
+- body copy
+- labels
+- buttons
+- metadata
+- product interfaces
+
+DISPLAY FONT:
+
+Use a sophisticated serif/editorial font for major brand statements and selected large headlines.
+
+The existing MentoraLM direction has already established this serif/sans combination.
+
+Preserve that conceptual direction.
+
+Do NOT turn every heading into serif.
+
+--------------------------------------------------
+TYPOGRAPHY HIERARCHY
+--------------------------------------------------
+
+Create reusable styles/tokens for:
+
+Display XL
+Display L
+Display M
+
+Heading XL
+Heading L
+Heading M
+Heading S
+
+Body L
+Body M
+Body S
+
+Label
+Eyebrow
+Metadata
+
+Button
+
+The system must be responsive.
+
+Large desktop typography should scale down intelligently on tablet/mobile.
+
+Do not simply use enormous text everywhere.
+
+==================================================
+6. LAYOUT SYSTEM
+==================================================
+
+Create a consistent container/grid system.
+
+The website should support:
+
+- full-width sections
+- constrained content sections
+- split layouts
+- asymmetric layouts
+- product visualisations
+- editorial layouts
+- card grids
+- full-screen interactive scenes
+
+Desktop content should have generous but controlled horizontal margins.
+
+Avoid excessively narrow content.
+
+Avoid excessive empty space.
+
+The system should allow a section to feel visually rich without becoming cluttered.
+
+==================================================
+7. SPACING SYSTEM
+==================================================
+
+Create centralized spacing tokens.
+
+Use a consistent rhythm.
+
+Avoid arbitrary values scattered throughout CSS.
+
+The system must support:
+
+- compact UI spacing
+- card spacing
+- section spacing
+- large editorial spacing
+- mobile spacing
+
+IMPORTANT:
+
+Large sections should have breathing room.
+
+But do NOT default every section to huge vertical padding.
+
+Spacing should depend on content density.
+
+==================================================
+8. BUTTON SYSTEM
+==================================================
+
+Create reusable button components/styles.
+
+PRIMARY:
+
+MentoraLM dark/navy button.
+
+SECONDARY:
+
+Light/outlined button.
+
+ACCENT:
+
+Controlled gradient/accent button where appropriate.
+
+Buttons should support:
+
+- default
+- hover
+- active
+- focus
+- disabled
+
+Buttons should feel premium and substantial.
+
+Avoid oversized pill-shaped buttons everywhere.
+
+Use rounded corners that feel modern but not cartoonish.
+
+Arrow indicators such as:
+
+→
+
+or
+
+↗
+
+may be used selectively.
+
+==================================================
+9. CARD SYSTEM
+==================================================
+
+Create a reusable card foundation.
+
+Cards must support:
+
+- standard cards
+- product cards
+- feature cards
+- dark cards
+- accent cards
+- interactive cards
+- upcoming/disabled-looking cards
+
+Default card characteristics:
+
+- clean surface
+- subtle border
+- restrained shadow
+- moderate radius
+- generous but not excessive padding
+
+Avoid making every component a floating rounded rectangle.
+
+The card system should also support cards that visually integrate into larger layouts.
+
+==================================================
+10. BORDERS
+==================================================
+
+Use subtle borders.
+
+Prefer low-contrast borders over heavy outlines.
+
+Borders can become slightly stronger during:
+
+- hover
+- focus
+- selected state
+
+Do not use thick borders everywhere.
+
+==================================================
+11. SHADOW SYSTEM
+==================================================
+
+Create a restrained shadow hierarchy:
+
+- none
+- subtle
+- elevated
+- modal
+
+Avoid large blurred shadows that make the site look like a generic SaaS template.
+
+==================================================
+12. GRADIENT SYSTEM
+==================================================
+
+Create reusable gradients:
+
+Brand Gradient
+Cyan → Blue → Purple → Magenta → Orange
+
+AI Gradient
+Cyan → Blue
+
+CareerIgnite Gradient
+Purple → Magenta
+
+GradLM Gradient
+Orange → Gold
+
+Gradients should primarily be used for:
+
+- visual accents
+- interactive states
+- product visualisations
+- subtle backgrounds
+- borders
+- highlights
+
+Do not flood the UI with gradients.
+
+==================================================
+13. NAVIGATION DESIGN
+==================================================
+
+Create the final visual foundation for the MentoraLM navigation.
+
+Desktop structure:
+
+Logo
+
+Home
+Modules
+How It Works
+Why MentoraLM
+About
+Resources
+
+Right side:
+
+Login
+Get Started
+
+Navigation should feel:
+
+- premium
+- clean
+- compact
+- trustworthy
+
+Use a subtle sticky/floating behaviour foundation.
+
+Do not build complicated navigation interactions yet.
+
+--------------------------------------------------
+MOBILE NAVIGATION
+--------------------------------------------------
+
+Create a polished mobile navigation foundation.
+
+Include:
+
+- logo
+- menu trigger
+- accessible menu
+- navigation links
+- Login
+- Get Started
+
+The mobile menu should be prepared for future animation but keep implementation lightweight.
+
+==================================================
+14. LOGO
+==================================================
+
+Use the official MentoraLM logo.
+
+Do NOT recreate it.
+
+Do NOT modify its internal artwork.
+
+Create a reusable:
+
+Logo
+
+component.
+
+It must support:
+
+- navbar size
+- footer size
+- light surface
+- dark surface where appropriate
+
+Preserve the original proportions.
+
+Avoid placing the logo inside an unnecessary visible rectangular background.
+
+==================================================
+15. INTERACTION LANGUAGE
+==================================================
+
+Establish the principles for future interactions.
+
+MentoraLM interaction should feel:
+
+- smooth
+- intelligent
+- deliberate
+- responsive
+- subtle
+
+Preferred interactions:
+
+- opacity transitions
+- subtle elevation
+- controlled translation
+- progressive reveal
+- path drawing
+- gentle scale
+- content transformation
+- hover/focus states
+
+Avoid:
+
+- bouncing
+- excessive parallax
+- spinning
+- flashy particles
+- constant movement
+- gimmicky AI effects
+
+Do not implement complex animations in Phase 1.
+
+Only establish reusable transition tokens/utilities.
+
+==================================================
+16. MOTION SYSTEM
+==================================================
+
+Create centralized motion timing tokens.
+
+For example:
+
+Fast
+Normal
+Slow
+
+And easing tokens.
+
+Future scroll-driven scenes will use these principles.
+
+Respect:
+
+prefers-reduced-motion
+
+Do not add another animation library unless one is genuinely required by the existing project.
+
+==================================================
+17. RESPONSIVE DESIGN SYSTEM
+==================================================
+
+Define responsive behaviour for:
+
+Desktop
+Tablet
+Mobile
+
+Important:
+
+The mobile design should NOT simply be a vertically stacked desktop design.
+
+Future sections need to be capable of becoming:
+
+- vertical storytelling
+- horizontally scrollable elements where appropriate
+- compact product cards
+- stacked product interfaces
+- touch interactions
+
+Establish the tokens/utilities now.
+
+==================================================
+18. DARK/LIGHT SURFACE SYSTEM
+==================================================
+
+Create a controlled surface system.
+
+LIGHT:
+
+white
+soft neutral
+very subtle tinted surfaces
+
+DARK:
+
+MentoraLM navy
+slightly lighter navy surface
+dark elevated surface
+
+The final website should alternate between light and dark sections strategically.
+
+Do not make everything dark.
+
+Do not make everything white.
+
+The system must allow strong visual rhythm.
+
+==================================================
+19. PRODUCT ACCENT SYSTEM
+==================================================
+
+Create a reusable typed configuration for:
+
+AI Career Counselling
+CareerIgnite
+GradLM
+Upcoming
+
+Each product configuration should be able to expose:
+
+- primary accent
+- secondary accent
+- gradient
+- text treatment
+- surface treatment
+
+This will later allow the actual product sections to inherit consistent visual identities.
+
+Do not build the product sections now.
+
+==================================================
+20. COMPONENT LIBRARY
+==================================================
+
+Create only reusable foundation components that are genuinely needed.
+
+Examples:
+
+Logo
+Button
+Container
+Section
+Eyebrow
+Heading
+Text
+Card
+Badge
+Divider
+Navigation
+MobileMenu
+
+Do NOT create dozens of unnecessary abstractions.
+
+Keep components simple and understandable.
+
+==================================================
+21. DESIGN TOKEN LOCATION
+==================================================
+
+Centralize the system.
+
+Use appropriate files such as:
+
+src/styles/tokens.css
+src/styles/globals.css
+
+or an equivalent clean architecture.
+
+Do not duplicate colour/spacing/typography definitions.
+
+==================================================
+22. NO SHOWCASE PAGE
+==================================================
+
+VERY IMPORTANT:
+
+Do NOT create a public-facing:
+
+"Design System"
+"Visual System"
+"Typography Showcase"
+"Colour Showcase"
+
+section.
+
+The design system is implementation infrastructure.
+
+It should NOT become homepage content.
+
+This was one of the problems with the previous MentoraLM website experiment.
+
+==================================================
+23. NO PLACEHOLDER MARKETING CONTENT
+==================================================
+
+Do not create fake:
+
+- testimonials
+- statistics
+- user counts
+- university partnerships
+- placement rates
+- rankings
+- success stories
+- awards
+- certifications
+
+Those will only be added when we have verified content.
+
+==================================================
+24. FREE MODE PERFORMANCE CONSTRAINT
+==================================================
+
+I am using Replit Free mode.
+
+Keep this phase lightweight.
+
+Do NOT:
+
+- install unnecessary packages
+- generate large assets
+- create videos
+- create 3D scenes
+- add backend services
+- add external APIs
+- add analytics
+- add databases
+
+Use CSS and lightweight React wherever possible.
+
+==================================================
+25. STRICT PHASE BOUNDARY
+==================================================
+
+THIS IS PHASE 1 ONLY.
+
+Do NOT implement:
+
+Hero
+Problem section
+MentoraLM Intelligence
+AI Career Counselling section
+CareerIgnite section
+GradLM section
+Ecosystem
+How It Works
+Menti
+Why MentoraLM
+Resources
+Final CTA
+
+Those will be implemented in later phases.
+
+==================================================
+26. ACCEPTANCE CRITERIA
+==================================================
+
+At the end of Phase 1, the project should have:
+
+✓ centralized colour tokens
+✓ typography system
+✓ spacing system
+✓ container/grid foundation
+✓ button system
+✓ card foundation
+✓ border system
+✓ shadow system
+✓ gradient system
+✓ navigation styling foundation
+✓ mobile navigation foundation
+✓ Logo component
+✓ product accent configuration
+✓ motion/transition tokens
+✓ responsive foundation
+✓ light/dark surface system
+✓ clean reusable UI primitives
+
+There should NOT be a completed homepage yet.
+
+==================================================
+27. VERIFICATION
+==================================================
+
+Run:
+
+1. TypeScript/typecheck
+2. Production build
+3. Development preview
+
+Check:
+
+- desktop
+- tablet
+- mobile
+- navigation
+- logo
+- buttons
+- typography
+- no horizontal overflow
+- no console errors
+
+Do not start Phase 2.
+
+Do not add Hero content.
+
+After completion, provide a concise report containing:
+
+- files/components created
+- design tokens established
+- navigation foundation status
+- responsive status
+- typecheck result
+- production build result
+- confirmation that Phase 2 has NOT started
+
+FINAL PRINCIPLE:
+
+We are building the visual DNA of MentoraLM.
+
+Do not confuse "premium" with "empty".
+
+The eventual website must have enough visual richness and product storytelling to feel like a serious education and career ecosystem.
+
+The design system must make that possible without becoming visually chaotic.
