@@ -1,0 +1,868 @@
+MENTORALM MAIN WEBSITE — PHASE 2
+HERO EXPERIENCE
+
+PHASE 0 + PHASE 1 ARE COMPLETE AND LOCKED.
+
+You are now implementing PHASE 2 ONLY.
+
+This phase is ONLY the MentoraLM homepage Hero.
+
+DO NOT build any other homepage section.
+
+DO NOT build:
+- Problem section
+- MentoraLM Intelligence section
+- AI Career Counselling section
+- CareerIgnite section
+- GradLM section
+- Ecosystem section
+- How It Works
+- Menti
+- Why MentoraLM
+- Resources
+- Final CTA
+
+Those belong to later phases.
+
+==================================================
+1. CORE OBJECTIVE
+==================================================
+
+The Hero is the visitor's first impression of MentoraLM.
+
+It must immediately communicate:
+
+MentoraLM is an intelligent education + career ecosystem that helps students understand themselves, make better decisions, build capability, and move toward opportunities.
+
+The Hero must feel:
+
+- premium
+- intelligent
+- ambitious
+- modern
+- trustworthy
+- human
+- sophisticated
+- visually memorable
+
+It must NOT feel like:
+
+- a generic AI startup
+- a SaaS template
+- a coaching website
+- a cryptocurrency website
+- a university landing page
+- a generic chatbot landing page
+
+==================================================
+2. EXACT HERO COPY
+==================================================
+
+Use this exact headline:
+
+"Your Future Deserves More Than a Guess."
+
+Do not change the wording.
+
+Supporting copy:
+
+"MentoraLM brings intelligent guidance, human expertise, and career-building experiences together to help you make clearer decisions about your future."
+
+You may make minor line-break changes for responsive layouts, but do not rewrite the copy.
+
+Primary CTA:
+
+"Explore MentoraLM →"
+
+Secondary CTA:
+
+"Meet Menti"
+
+The primary CTA should eventually lead toward the Modules/Ecosystem experience.
+
+The secondary CTA should eventually lead toward the Menti section.
+
+Since those sections do not exist yet, use the appropriate future anchor targets.
+
+==================================================
+3. EYEBROW
+==================================================
+
+Above the headline, use a restrained eyebrow:
+
+"MENTORALM"
+
+or
+
+"THE FUTURE OF CAREER & EDUCATION"
+
+Choose ONE.
+
+Do not use both.
+
+The eyebrow should be subtle and premium.
+
+Do not put it inside a large pill.
+
+==================================================
+4. HERO VISUAL CONCEPT
+==================================================
+
+THIS IS THE MOST IMPORTANT PART OF THIS PHASE.
+
+Do NOT create a generic illustration.
+
+Do NOT use:
+- stock photography
+- AI-generated people
+- robot illustrations
+- 3D spheres
+- giant gradient blobs
+- random abstract waves
+- generic laptop mockups
+- random floating cards
+
+Instead create a lightweight interactive visual representing:
+
+THE LEARNER
+
+at the center.
+
+Around the learner are four dimensions:
+
+UNDERSTAND
+BUILD
+EXPLORE
+MOVE FORWARD
+
+These represent the broader MentoraLM journey.
+
+The three flagship products should be subtly connected to this ecosystem:
+
+AI Career Counselling
+CareerIgnite Program
+GradLM Study Abroad
+
+The visual should communicate:
+
+ONE LEARNER
+↓
+MULTIPLE POSSIBILITIES
+↓
+CLEARER DIRECTION
+
+This should feel like a sophisticated digital map rather than a flowchart.
+
+==================================================
+5. HERO VISUAL STRUCTURE
+==================================================
+
+Desktop composition:
+
+LEFT:
+
+Eyebrow
+
+Headline
+
+Supporting copy
+
+Primary CTA
+
+Secondary CTA
+
+RIGHT:
+
+Interactive MentoraLM Journey Visual
+
+The visual should occupy approximately 45–50% of the hero width.
+
+Do not make the visual larger than the copy.
+
+Do not make the visual look like a separate unrelated illustration.
+
+The left and right sides should feel like one composition.
+
+==================================================
+6. CENTER NODE
+==================================================
+
+The central visual element represents:
+
+"YOU"
+
+This should be the strongest visual point.
+
+Use a clean circular or rounded central element.
+
+Inside:
+
+YOU
+
+Below it, a very small supporting label:
+
+"Your journey starts here."
+
+The central element should use the MentoraLM brand identity subtly.
+
+Do NOT make it look like a profile avatar.
+
+It is a conceptual representation of the learner.
+
+==================================================
+7. FOUR JOURNEY DIMENSIONS
+==================================================
+
+Around the central learner, create four nodes:
+
+01
+UNDERSTAND
+
+02
+BUILD
+
+03
+EXPLORE
+
+04
+MOVE FORWARD
+
+Each node should have:
+
+- title
+- tiny supporting descriptor
+- subtle visual distinction
+
+Suggested descriptors:
+
+UNDERSTAND
+"Know yourself"
+
+BUILD
+"Develop capability"
+
+EXPLORE
+"Discover possibilities"
+
+MOVE FORWARD
+"Turn direction into action"
+
+These are conceptual labels and should remain concise.
+
+==================================================
+8. PRODUCT CONNECTIONS
+==================================================
+
+The three real MentoraLM products should appear subtly within the visual ecosystem.
+
+Do NOT present them as three giant cards.
+
+Instead, allow them to appear as smaller connected product markers.
+
+AI Career Counselling
+accent: cyan / blue
+
+CareerIgnite
+accent: purple / magenta
+
+GradLM
+accent: orange / gold
+
+They should visually connect to relevant parts of the journey.
+
+Suggested conceptual relationship:
+
+AI Career Counselling
+→ UNDERSTAND
+
+CareerIgnite
+→ BUILD
+
+GradLM
+→ EXPLORE
+
+Do not make "MOVE FORWARD" dependent on one specific product.
+
+It represents the overall MentoraLM journey.
+
+==================================================
+9. VISUAL HIERARCHY
+==================================================
+
+The visual hierarchy must be:
+
+1. YOU
+2. journey paths
+3. UNDERSTAND / BUILD / EXPLORE / MOVE FORWARD
+4. product markers
+5. decorative accents
+
+Do NOT allow product labels to overpower the central learner.
+
+MentoraLM is learner-first.
+
+==================================================
+10. CONNECTION LINES
+==================================================
+
+Use lightweight SVG paths or CSS lines.
+
+The paths should connect:
+
+YOU
+→ journey dimensions
+→ product markers
+
+Use very subtle strokes.
+
+Avoid:
+- circuit-board aesthetics
+- glowing neon lines
+- excessive particles
+- complicated technical diagrams
+
+The visual should feel human and strategic, not cyberpunk.
+
+==================================================
+11. MOTION
+==================================================
+
+Use subtle motion.
+
+On initial page load:
+
+- central YOU element gently appears
+- journey nodes appear progressively
+- connection paths reveal subtly
+- product markers fade in afterward
+
+Do NOT animate everything simultaneously.
+
+The sequence should feel intentional.
+
+Suggested order:
+
+YOU
+↓
+journey dimensions
+↓
+connections
+↓
+product markers
+
+Keep animations short and restrained.
+
+Use the motion tokens created in Phase 1.
+
+Respect:
+
+prefers-reduced-motion
+
+When reduced motion is enabled, show the complete visual without animation.
+
+==================================================
+12. INTERACTION
+==================================================
+
+The visual should have lightweight interaction.
+
+When hovering/focusing a journey node:
+
+- slightly emphasize that node
+- subtly brighten its connection
+- slightly reduce emphasis on unrelated elements
+
+For example:
+
+Hover UNDERSTAND:
+
+UNDERSTAND becomes emphasized.
+
+AI Career Counselling becomes slightly more visible.
+
+Other elements remain present but quieter.
+
+Hover BUILD:
+
+CareerIgnite becomes slightly more visible.
+
+Hover EXPLORE:
+
+GradLM becomes slightly more visible.
+
+This is enough.
+
+Do NOT create complex tooltips.
+
+Do NOT create modal windows.
+
+Do NOT create large popups.
+
+==================================================
+13. HERO BACKGROUND
+==================================================
+
+The background should be primarily clean and light.
+
+Use:
+
+white / soft neutral
+
+with very subtle ambient colour.
+
+A restrained brand gradient may appear behind the visual at very low opacity.
+
+Do NOT create a giant gradient background.
+
+Do NOT make the hero look like an AI-generated wallpaper.
+
+The background should allow the typography to remain extremely readable.
+
+==================================================
+14. TYPOGRAPHY
+==================================================
+
+Use the Phase 1 typography system.
+
+The headline should be the dominant textual element.
+
+Desktop:
+
+Large editorial headline.
+
+It should occupy approximately 2–4 lines depending on viewport.
+
+Do not make the headline absurdly huge.
+
+The headline should feel confident rather than promotional.
+
+Supporting text should be significantly smaller and muted.
+
+==================================================
+15. CTA DESIGN
+==================================================
+
+Primary:
+
+"Explore MentoraLM →"
+
+Use the primary button system from Phase 1.
+
+Secondary:
+
+"Meet Menti"
+
+Use the secondary button style.
+
+Do not add more CTAs.
+
+Do not add:
+- Book a Demo
+- Join Now
+- Learn More
+- Apply Now
+- Contact Us
+
+Only the two specified CTAs.
+
+==================================================
+16. TRUST / VALUE INDICATORS
+==================================================
+
+Below the CTAs, include three very subtle value indicators.
+
+Use:
+
+Personalised Guidance
+
+AI + Human Expertise
+
+Built for Indian Students
+
+These should NOT be three large cards.
+
+Use a compact horizontal or vertically responsive arrangement.
+
+Example:
+
+● Personalised Guidance
+● AI + Human Expertise
+● Built for Indian Students
+
+Keep them visually understated.
+
+==================================================
+17. HERO HEIGHT
+==================================================
+
+Desktop:
+
+The hero should occupy approximately 85–95vh.
+
+It should feel like a major opening scene.
+
+Do not force exactly 100vh if that creates awkward cropping.
+
+Mobile:
+
+Allow the Hero to expand naturally based on content.
+
+Do not lock mobile to 100vh.
+
+The complete headline, copy, CTAs, and visual must remain accessible without awkward clipping.
+
+==================================================
+18. DESKTOP LAYOUT
+==================================================
+
+Use a two-column composition.
+
+Approximately:
+
+45% text
+55% visual
+
+But adjust naturally according to content.
+
+The hero should have strong visual balance.
+
+The visual should NOT touch the browser edge.
+
+Use the Phase 1 container system.
+
+==================================================
+19. TABLET
+==================================================
+
+On tablet:
+
+Maintain two columns if there is enough width.
+
+Otherwise transition naturally into:
+
+text
+↓
+visual
+
+Do not allow the visual to become tiny.
+
+Do not allow the headline to become excessively large.
+
+==================================================
+20. MOBILE
+==================================================
+
+Mobile is extremely important.
+
+The Hero should become:
+
+Eyebrow
+
+Headline
+
+Supporting copy
+
+CTA buttons
+
+Value indicators
+
+Visual
+
+The visual should become a vertically arranged journey.
+
+Central:
+
+YOU
+
+Then:
+
+UNDERSTAND
+BUILD
+EXPLORE
+MOVE FORWARD
+
+Then product markers where appropriate.
+
+Do NOT attempt to preserve the desktop radial geometry if it becomes cramped.
+
+The mobile design should be intentionally composed.
+
+Avoid horizontal scrolling.
+
+==================================================
+21. NAVIGATION
+==================================================
+
+Use the Phase 1 navigation.
+
+Do not redesign the navigation from scratch.
+
+Ensure the official MentoraLM logo is used.
+
+The navigation should sit naturally above the Hero.
+
+If a transparent/overlay navigation is used, maintain excellent contrast.
+
+Do not introduce a second navigation system.
+
+==================================================
+22. SCROLL CUE
+==================================================
+
+At the bottom of the Hero, include a subtle:
+
+"Scroll to explore"
+
+or equivalent minimal cue.
+
+It should visually indicate that the page continues.
+
+Do not make it distracting.
+
+On mobile, keep it very subtle or omit it if vertical space becomes excessive.
+
+==================================================
+23. NO FAKE PRODUCT SCREENSHOTS
+==================================================
+
+Do NOT fabricate screenshots of:
+
+AI Career Counselling
+CareerIgnite
+GradLM
+
+We have the actual product repositories.
+
+Those real product interfaces will be integrated in later phases.
+
+For this Hero, use only the conceptual ecosystem visual.
+
+==================================================
+24. PERFORMANCE
+==================================================
+
+I am using Replit Free mode.
+
+The Hero must remain lightweight.
+
+Use:
+
+- React
+- CSS
+- SVG
+- existing project utilities
+
+Avoid:
+
+- video
+- WebGL
+- Three.js
+- heavy animation packages
+- canvas-based particle systems
+- large images
+- external animation libraries unless already installed and genuinely necessary
+
+The visual should remain smooth on normal mobile devices.
+
+==================================================
+25. ACCESSIBILITY
+==================================================
+
+Ensure:
+
+- proper h1
+- semantic buttons/links
+- keyboard-accessible interactive nodes
+- visible focus states
+- sufficient contrast
+- reduced-motion support
+- meaningful aria labels where necessary
+
+The visual must not be the only way the Hero communicates its meaning.
+
+The textual content must remain understandable without animation.
+
+==================================================
+26. COMPONENT ARCHITECTURE
+==================================================
+
+Create clean components.
+
+Suggested structure:
+
+HeroSection
+HeroContent
+HeroActions
+HeroValueIndicators
+HeroJourneyVisual
+JourneyNode
+ProductMarker
+JourneyConnections
+
+You may adjust naming if the existing architecture has a better convention.
+
+Do NOT create one enormous Hero component.
+
+Keep data/configuration separate where practical.
+
+For example, journey nodes should be data-driven.
+
+==================================================
+27. DO NOT TOUCH OTHER SECTIONS
+==================================================
+
+Existing Phase 0 section placeholders should remain untouched.
+
+Do not implement future sections.
+
+Do not change future section architecture.
+
+Only replace the Hero placeholder with the Phase 2 implementation.
+
+==================================================
+28. DO NOT CHANGE THE DESIGN SYSTEM
+==================================================
+
+Phase 1 is locked.
+
+Use the existing:
+
+- colours
+- typography
+- spacing
+- buttons
+- cards
+- containers
+- motion tokens
+- responsive system
+
+If a tiny addition is genuinely required for the Hero, add it in the design-system layer.
+
+Do NOT redesign the system.
+
+==================================================
+29. DO NOT ADD UNRELATED CONTENT
+==================================================
+
+No:
+
+testimonials
+statistics
+logos
+university names
+placement numbers
+student counts
+awards
+certifications
+partner logos
+fake social proof
+
+We will add verified proof later.
+
+==================================================
+30. QUALITY BAR
+==================================================
+
+The Hero should feel like the opening of a serious technology + education ecosystem.
+
+It should NOT look like a template.
+
+When I see the first screenshot, I should immediately understand:
+
+"This is MentoraLM."
+
+And I should visually understand:
+
+"There is a learner at the center, and MentoraLM connects career understanding, capability building, education, and future opportunities around that learner."
+
+==================================================
+31. FINAL CHECK
+==================================================
+
+Before finishing:
+
+Run:
+
+1. TypeScript/typecheck
+2. Production build
+3. Development preview
+
+Check:
+
+Desktop:
+- 1440px
+- 1280px
+
+Tablet:
+- approximately 768px
+
+Mobile:
+- approximately 390px
+- approximately 375px
+
+Verify:
+
+- headline is readable
+- CTA buttons work
+- navigation works
+- visual fits
+- no horizontal overflow
+- no console errors
+- keyboard focus works
+- reduced motion works
+- no accidental future sections were implemented
+
+==================================================
+32. STRICT PHASE BOUNDARY
+==================================================
+
+THIS IS PHASE 2 ONLY.
+
+Do NOT begin Phase 3.
+
+Do NOT build the Problem section.
+
+Do NOT build MentoraLM Intelligence.
+
+Do NOT build product sections.
+
+Do NOT build ecosystem cards.
+
+Do NOT add Menti section.
+
+Stop after the Hero is complete and verified.
+
+At completion, report:
+
+- Hero components created
+- visual interaction implemented
+- responsive behaviour
+- accessibility status
+- typecheck result
+- production build result
+- preview status
+- confirmation that Phase 3 has NOT started
+
+FINAL DESIGN PRINCIPLE:
+
+The Hero should not try to explain all of MentoraLM.
+
+It should create curiosity.
+
+The visitor should understand the promise:
+
+"Your Future Deserves More Than a Guess."
+
+And immediately see the core idea:
+
+ONE LEARNER
+→
+UNDERSTAND
+→
+BUILD
+→
+EXPLORE
+→
+MOVE FORWARD
+
+This is the beginning of the MentoraLM story.

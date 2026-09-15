@@ -16,14 +16,15 @@ import { FooterSection } from '@/components/sections/footer';
 
 export default function HomePage() {
   return (
-    <div className="page-container" id="home">
+    <div className="page-container page-container--home" id="home">
+      <HeroSection />
       <section className="foundation-panel" aria-labelledby="foundation-heading">
         <p className="eyebrow" data-testid="text-home-eyebrow">
           MentoraLM / architecture foundation
         </p>
-        <h1 className="page-title" id="foundation-heading" data-testid="heading-home">
+        <h2 className="page-title" id="foundation-heading" data-testid="heading-home">
           Phase 0
-        </h1>
+        </h2>
         <p className="page-intro" data-testid="text-home-intro">
           Structural foundation for the MentoraLM education and career ecosystem.
         </p>
@@ -38,7 +39,6 @@ export default function HomePage() {
         </p>
       </section>
       <div className="planned-sections" aria-label="Planned homepage section structure">
-        <HeroSection />
         <ProblemSection />
         <IntelligenceSection />
         <AiCareerCounsellingSection />
