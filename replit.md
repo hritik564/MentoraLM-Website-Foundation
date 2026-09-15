@@ -1,6 +1,6 @@
-# [Project name]
+# MentoraLM Website
 
-_Replace the heading above with the project's name, and this line with one sentence describing what this app does for users._
+Phase 0 foundation for the MentoraLM parent-brand education and career ecosystem website.
 
 ## Run & Operate
 
@@ -22,23 +22,31 @@ _Replace the heading above with the project's name, and this line with one sente
 
 ## Where things live
 
-_Populate as you build — short repo map plus pointers to the source-of-truth file for DB schema, API contracts, theme files, etc._
+- `artifacts/mentoralm-website/src/App.tsx` — route map and shared site shell
+- `artifacts/mentoralm-website/src/components/navigation/` — responsive structural navigation
+- `artifacts/mentoralm-website/src/components/sections/` — semantic Phase 0 homepage section placeholders
+- `artifacts/mentoralm-website/src/components/ui/logo.tsx` — reusable official-logo asset seam
+- `artifacts/mentoralm-website/src/data/products.ts` — typed seven-slot product/module model
+- `artifacts/mentoralm-website/src/index.css` — foundation tokens and responsive styles
 
 ## Architecture decisions
 
-_Populate as you build — non-obvious choices a reader couldn't infer from the code (3-5 bullets)._
+- The homepage intentionally renders only Phase 0 foundation markers and labeled section placeholders; marketing design begins in later phases.
+- Product/module metadata is centralized in `src/data/products.ts`, including four unnamed upcoming module slots.
+- The official logo is not recreated; the `Logo` component accepts a supplied asset when it becomes available.
+- The site is frontend-only in this phase; no API, database, authentication, analytics, or external integrations are required.
 
 ## Product
 
-_Describe the high-level user-facing capabilities of this app once they exist._
+The site provides the structural parent-brand shell for MentoraLM, including accessible navigation, future homepage anchors, typed flagship/upcoming module architecture, and placeholder routes for the three known products.
 
 ## User preferences
 
-_Populate as you build — explicit user instructions worth remembering across sessions._
+- Keep work in the current phase focused on architecture; do not begin Phase 1 visual design or later product experiences unless explicitly requested.
 
 ## Gotchas
 
-_Populate as you build — sharp edges, "always run X before Y" rules._
+- The frontend Vite config expects `PORT` and `BASE_PATH` from the managed artifact workflow; direct build checks should provide them explicitly.
 
 ## Pointers
 

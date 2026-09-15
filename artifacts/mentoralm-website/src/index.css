@@ -162,6 +162,12 @@ a:focus-visible {
   gap: 0.25rem;
 }
 
+.header-actions {
+  display: none;
+  align-items: center;
+  gap: 0.25rem;
+}
+
 .nav-link {
   padding: 0.5rem 0.7rem;
   border: 1px solid transparent;
@@ -278,6 +284,36 @@ a:focus-visible {
   text-transform: uppercase;
 }
 
+.section-placeholder h2,
+.section-placeholder p {
+  margin: 0;
+}
+
+.section-placeholder h2 {
+  color: hsl(var(--ink));
+  font-family: var(--app-font-sans);
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: normal;
+  text-transform: none;
+}
+
+.section-placeholder p {
+  margin-top: 0.45rem;
+  font-size: 0.68rem;
+}
+
+.planned-sections {
+  display: grid;
+  gap: 0.75rem;
+  max-width: 43rem;
+  margin: 1.5rem auto 0;
+}
+
+.planned-sections .section-placeholder {
+  margin-top: 0;
+}
+
 .architecture-counts {
   margin-top: 2rem;
   margin-bottom: 0;
@@ -354,6 +390,10 @@ a:focus-visible {
   }
 
   .primary-nav {
+    display: flex;
+  }
+
+  .header-actions {
     display: flex;
   }
 
