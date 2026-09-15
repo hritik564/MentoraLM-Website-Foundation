@@ -4,12 +4,16 @@ interface LogoProps {
   href?: string;
   className?: string;
   assetSrc?: string;
+  tone?: 'light' | 'dark';
+  size?: 'nav' | 'footer';
 }
 
 export function Logo({
   href = '/',
   className = '',
   assetSrc,
+  tone = 'light',
+  size = 'nav',
 }: LogoProps) {
   const content = assetSrc ? (
     <img
@@ -20,19 +24,19 @@ export function Logo({
     />
   ) : (
     <span
-      className="logo-wordmark"
+      className="logo-placeholder"
       data-logo-asset-slot="official-logo-to-be-supplied"
       data-testid="text-logo-wordmark"
     >
-      Mentora<em>LM</em>
+      MentoraLM
     </span>
   );
 
   return (
     <Link
       href={href}
-      className={`logo ${className}`.trim()}
-      aria-label="MentoraLM foundation home"
+      className={`logo logo--${tone} logo--${size} ${className}`.trim()}
+      aria-label="MentoraLM home"
       data-testid="link-logo-home"
     >
       {content}

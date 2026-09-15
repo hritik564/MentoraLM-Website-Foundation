@@ -1,0 +1,138 @@
+:root {
+  /* Brand foundation */
+  --color-mentoralm-navy: #101d3f;
+  --color-navy-surface: #18284f;
+  --color-navy-elevated: #223560;
+  --color-white: #ffffff;
+  --color-soft-neutral: #f4f6f8;
+  --color-soft-neutral-strong: #e9edf2;
+  --color-dark-text: #15213f;
+  --color-muted-text: #68748d;
+  --color-subtle-text: #8b95a8;
+  --color-border: #d9dfe8;
+  --color-border-strong: #b9c3d2;
+
+  /* Product accent families */
+  --color-ai-cyan: #20d6df;
+  --color-ai-blue: #3b82f6;
+  --color-careerignite-purple: #8b5cf6;
+  --color-careerignite-magenta: #d946ef;
+  --color-gradlm-orange: #f28b3d;
+  --color-gradlm-gold: #f5bd47;
+  --color-gradlm-text: #a65a16;
+  --shadow-rgb: 16 29 63;
+  --cyan-rgb: 32 214 223;
+
+  /* Controlled accent surfaces */
+  --surface-page: var(--color-white);
+  --surface-soft: var(--color-soft-neutral);
+  --surface-subtle: #f8fafc;
+  --surface-card: var(--color-white);
+  --surface-inverse: var(--color-mentoralm-navy);
+  --surface-inverse-raised: var(--color-navy-surface);
+  --text-primary: var(--color-dark-text);
+  --text-muted: var(--color-muted-text);
+  --text-subtle: var(--color-subtle-text);
+  --text-inverse: var(--color-white);
+  --border-subtle: var(--color-border);
+  --border-strong: var(--color-border-strong);
+
+  /* Gradient signatures: use for accents, not section backgrounds */
+  --gradient-brand: linear-gradient(
+    100deg,
+    var(--color-ai-cyan) 0%,
+    var(--color-ai-blue) 25%,
+    var(--color-careerignite-purple) 52%,
+    var(--color-careerignite-magenta) 74%,
+    var(--color-gradlm-orange) 100%
+  );
+  --gradient-ai: linear-gradient(100deg, var(--color-ai-cyan), var(--color-ai-blue));
+  --gradient-careerignite: linear-gradient(
+    100deg,
+    var(--color-careerignite-purple),
+    var(--color-careerignite-magenta)
+  );
+  --gradient-gradlm: linear-gradient(
+    100deg,
+    var(--color-gradlm-orange),
+    var(--color-gradlm-gold)
+  );
+
+  /* Typography */
+  --font-sans: 'DM Sans', sans-serif;
+  --font-serif: 'Instrument Serif', Georgia, serif;
+  --font-mono: 'DM Mono', monospace;
+  --text-display-xl: clamp(3.5rem, 8vw, 7.5rem);
+  --text-display-l: clamp(3rem, 6vw, 5.75rem);
+  --text-display-m: clamp(2.5rem, 4vw, 4.25rem);
+  --text-heading-xl: clamp(2.25rem, 4vw, 3.75rem);
+  --text-heading-l: clamp(1.875rem, 3vw, 2.75rem);
+  --text-heading-m: clamp(1.5rem, 2.2vw, 2rem);
+  --text-heading-s: 1.25rem;
+  --text-body-l: 1.125rem;
+  --text-body-m: 1rem;
+  --text-body-s: 0.875rem;
+  --text-label: 0.8125rem;
+  --text-eyebrow: 0.6875rem;
+  --text-metadata: 0.75rem;
+
+  /* Layout and spacing */
+  --container-max: 76rem;
+  --container-reading: 45rem;
+  --grid-columns: 12;
+  --grid-gap: clamp(1rem, 2vw, 2rem);
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-5: 1.25rem;
+  --space-6: 1.5rem;
+  --space-8: 2rem;
+  --space-10: 2.5rem;
+  --space-12: 3rem;
+  --space-16: 4rem;
+  --space-20: 5rem;
+  --space-24: 6rem;
+  --space-section: clamp(4rem, 8vw, 8rem);
+  --page-gutter: clamp(1rem, 4vw, 4rem);
+
+  /* Shape, borders, and shadows */
+  --radius-xs: 0.25rem;
+  --radius-sm: 0.5rem;
+  --radius-md: 0.75rem;
+  --radius-lg: 1rem;
+  --radius-pill: 999px;
+  --border-width: 1px;
+  --shadow-none: 0 0 transparent;
+  --shadow-subtle: 0 8px 24px rgb(16 29 63 / 0.06);
+  --shadow-elevated: 0 18px 48px rgb(16 29 63 / 0.12);
+  --shadow-modal: 0 28px 80px rgb(16 29 63 / 0.2);
+
+  /* Motion */
+  --duration-fast: 140ms;
+  --duration-normal: 220ms;
+  --duration-slow: 360ms;
+  --ease-standard: cubic-bezier(0.2, 0.65, 0.25, 1);
+  --ease-emphasis: cubic-bezier(0.16, 1, 0.3, 1);
+
+  /* Tailwind/shadcn compatibility for existing generated primitives */
+  --background: 0 0% 100%;
+  --foreground: 224 50% 16%;
+  --border: 218 24% 88%;
+  --input: 218 24% 88%;
+  --ring: 188 72% 50%;
+  --card: 0 0% 100%;
+  --card-foreground: 224 50% 16%;
+  --card-border: 218 24% 88%;
+  --primary: 224 60% 16%;
+  --primary-foreground: 0 0% 100%;
+  --secondary: 216 24% 95%;
+  --secondary-foreground: 224 50% 16%;
+  --muted: 216 24% 95%;
+  --muted-foreground: 219 16% 48%;
+  --accent: 188 72% 50%;
+  --accent-foreground: 224 50% 16%;
+  --destructive: 2 65% 48%;
+  --destructive-foreground: 0 0% 100%;
+  --radius: 0.75rem;
+}

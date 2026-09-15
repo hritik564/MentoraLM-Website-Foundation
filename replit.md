@@ -26,14 +26,18 @@ Phase 0 foundation for the MentoraLM parent-brand education and career ecosystem
 - `artifacts/mentoralm-website/src/components/navigation/` — responsive structural navigation
 - `artifacts/mentoralm-website/src/components/sections/` — semantic Phase 0 homepage section placeholders
 - `artifacts/mentoralm-website/src/components/ui/logo.tsx` — reusable official-logo asset seam
+- `artifacts/mentoralm-website/src/components/ui/foundation.tsx` — reusable container, section, heading, text, card, badge, and divider primitives
 - `artifacts/mentoralm-website/src/data/products.ts` — typed seven-slot product/module model
-- `artifacts/mentoralm-website/src/index.css` — foundation tokens and responsive styles
+- `artifacts/mentoralm-website/src/data/product-accents.ts` — typed accent configuration for flagship and upcoming products
+- `artifacts/mentoralm-website/src/styles/tokens.css` — centralized brand, typography, spacing, surface, gradient, shadow, and motion tokens
+- `artifacts/mentoralm-website/src/styles/globals.css` — responsive layout, navigation, primitive, and accessibility styles
 
 ## Architecture decisions
 
 - The homepage intentionally renders only Phase 0 foundation markers and labeled section placeholders; marketing design begins in later phases.
 - Product/module metadata is centralized in `src/data/products.ts`, including four unnamed upcoming module slots.
 - The official logo is not recreated; the `Logo` component accepts a supplied asset when it becomes available.
+- Phase 1 visual infrastructure is centralized in `src/styles/tokens.css` and `src/styles/globals.css`; components consume semantic tokens instead of scattered brand values.
 - The site is frontend-only in this phase; no API, database, authentication, analytics, or external integrations are required.
 
 ## Product
@@ -42,7 +46,7 @@ The site provides the structural parent-brand shell for MentoraLM, including acc
 
 ## User preferences
 
-- Keep work in the current phase focused on architecture; do not begin Phase 1 visual design or later product experiences unless explicitly requested.
+- Keep work in the current phase focused on the visual system; do not begin Phase 2 hero or later product experiences unless explicitly requested.
 
 ## Gotchas
 
