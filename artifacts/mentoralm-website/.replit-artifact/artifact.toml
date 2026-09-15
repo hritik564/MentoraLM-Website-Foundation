@@ -1,0 +1,28 @@
+kind = "web"
+previewPath = "/"
+title = "MentoraLM Website"
+description = "A lightweight Phase 0 foundation for the MentoraLM parent brand website, with reusable architecture, product routes, typed module data, responsive navigation, and semantic homepage section scaffolding."
+version = "1.0.0"
+id = "artifacts/mentoralm-website"
+router = "path"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 23251
+
+[services.development]
+run = "pnpm --filter @workspace/mentoralm-website run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/mentoralm-website", "run", "build" ]
+serve = "static"
+publicDir = "artifacts/mentoralm-website/dist/public"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "23251"
+BASE_PATH = "/"

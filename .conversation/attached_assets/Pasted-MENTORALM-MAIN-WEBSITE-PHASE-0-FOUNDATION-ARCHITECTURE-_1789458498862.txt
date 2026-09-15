@@ -1,0 +1,595 @@
+MENTORALM MAIN WEBSITE — PHASE 0
+FOUNDATION + ARCHITECTURE ONLY
+
+We are building a completely new production marketing website for MentoraLM.
+
+This is a NEW project.
+
+IMPORTANT:
+This is Phase 0 only.
+
+DO NOT build the homepage sections yet.
+DO NOT build the Hero yet.
+DO NOT build module cards yet.
+DO NOT build animations yet.
+DO NOT create placeholder marketing sections.
+DO NOT invent content.
+DO NOT recreate the old MentoraLM-Website design.
+
+The purpose of this phase is to create a clean, lightweight technical foundation that we will build upon in later phases.
+
+I am using Replit Free mode, so keep this implementation extremely lightweight and avoid unnecessary dependencies, services, APIs, backend infrastructure, databases, or heavy assets.
+
+==================================================
+1. PRODUCT CONTEXT
+==================================================
+
+MentoraLM is an education and career ecosystem.
+
+The main website is the parent brand website.
+
+There are currently THREE flagship products/modules:
+
+01 — AI Career Counselling
+
+02 — CareerIgnite Program
+
+03 — GradLM Study Abroad
+
+There will eventually be four additional modules:
+
+04 — Upcoming Module
+05 — Upcoming Module
+06 — Upcoming Module
+07 — Upcoming Module
+
+Do not invent names or functionality for modules 04–07.
+
+The main website should eventually communicate:
+
+MentoraLM
+→ AI Career Counselling
+→ CareerIgnite Program
+→ GradLM Study Abroad
+→ Future MentoraLM modules
+
+==================================================
+2. SOURCE REPOSITORIES
+==================================================
+
+The following repositories are reference sources for the actual products.
+
+MentoraLM / AI Career Counselling:
+https://github.com/hritik564/mentoraLM
+
+GradLM:
+https://github.com/hritik564/GradLM
+
+CareerIgnite:
+Use the CareerIgnite implementation/source that has been provided as reference material.
+
+IMPORTANT:
+
+These repositories are NOT dependencies.
+
+Do not clone entire repositories into this project.
+
+Do not install their dependencies.
+
+Do not copy entire pages.
+
+Do not duplicate their applications.
+
+Later phases will selectively recreate small visual/product experiences inspired by the actual product implementations.
+
+For now, simply structure this project so those product experiences can be added cleanly later.
+
+==================================================
+3. DESIGN BENCHMARK
+==================================================
+
+The strategic website benchmark is:
+
+https://www.masaischool.com/
+
+IMPORTANT:
+
+Do NOT copy Masai School's branding, text, logo, colours, or exact layouts.
+
+Use it only as a benchmark for:
+
+- information density
+- product ecosystem presentation
+- storytelling
+- section hierarchy
+- discoverability
+- navigation
+- product/program presentation
+- credibility
+- conversion
+- responsive behaviour
+
+MentoraLM must have its OWN visual identity.
+
+==================================================
+4. TECHNICAL DIRECTION
+==================================================
+
+Use a lightweight modern React frontend.
+
+Preferred:
+
+- React
+- TypeScript
+- Vite
+- Tailwind CSS if already available / appropriate
+- lightweight CSS
+- simple reusable React components
+
+Avoid unnecessary dependencies.
+
+Do NOT add:
+
+- backend
+- database
+- authentication
+- API integrations
+- CMS
+- analytics
+- payment systems
+- external AI APIs
+- 3D engines
+- heavy animation frameworks
+- unnecessary UI libraries
+
+This is a marketing website.
+
+The architecture must remain easy to modify in later phases.
+
+==================================================
+5. PROJECT STRUCTURE
+==================================================
+
+Create a clean structure similar to:
+
+src/
+  components/
+    layout/
+    navigation/
+    ui/
+    sections/
+    products/
+  pages/
+  data/
+  assets/
+  styles/
+  lib/
+
+Use sensible naming.
+
+Keep components small and reusable.
+
+Do not create giant monolithic files containing the entire homepage.
+
+==================================================
+6. ROUTING ARCHITECTURE
+==================================================
+
+Prepare routing for:
+
+/
+
+Main MentoraLM website
+
+/products/ai-career-counselling
+
+AI Career Counselling
+
+/products/careerignite
+
+CareerIgnite
+
+/products/gradlm
+
+GradLM
+
+For now these product routes may contain extremely simple placeholder route components such as:
+
+"Product experience will be implemented in a future phase."
+
+Do not build those product pages yet.
+
+The important thing is that routing is established cleanly.
+
+==================================================
+7. MAIN WEBSITE SECTION ARCHITECTURE
+==================================================
+
+Prepare the main homepage architecture with section components, but DO NOT fully design them yet.
+
+The planned sections are:
+
+01 — Hero
+
+02 — The Problem
+
+03 — MentoraLM Intelligence
+
+04 — AI Career Counselling
+
+05 — CareerIgnite Program
+
+06 — GradLM Study Abroad
+
+07 — MentoraLM Ecosystem
+
+08 — How MentoraLM Works
+
+09 — Menti
+
+10 — Why MentoraLM
+
+11 — Resources / Insights
+
+12 — Final CTA
+
+13 — Footer
+
+For now, create section component placeholders only.
+
+Each section should have a clear component file and semantic HTML structure.
+
+Do not fill these with generic placeholder marketing copy.
+
+A simple development marker is enough.
+
+==================================================
+8. NAVIGATION ARCHITECTURE
+==================================================
+
+Create the navigation component.
+
+Desktop navigation should eventually support:
+
+Home
+Modules
+How It Works
+Why MentoraLM
+About
+Resources
+
+Right side:
+
+Login
+Get Started
+
+For Phase 0:
+
+Implement only the structural navigation.
+
+Do not spend time on elaborate visual styling.
+
+Create anchor targets for future sections.
+
+Navigation must be responsive.
+
+Prepare a mobile menu structure, but keep its visual styling simple for now.
+
+==================================================
+9. PRODUCT DATA MODEL
+==================================================
+
+Create a central typed product data structure.
+
+Do NOT hard-code product information independently inside every card/component.
+
+For example, create a typed structure capable of supporting:
+
+id
+number
+name
+shortName
+category
+description
+status
+route
+accent
+visualType
+
+The initial products should be:
+
+01
+AI Career Counselling
+active
+/products/ai-career-counselling
+
+02
+CareerIgnite Program
+active
+/products/careerignite
+
+03
+GradLM Study Abroad
+active
+/products/gradlm
+
+04
+Upcoming Module
+upcoming
+
+05
+Upcoming Module
+upcoming
+
+06
+Upcoming Module
+upcoming
+
+07
+Upcoming Module
+upcoming
+
+Do not invent descriptions for upcoming modules.
+
+This data model will later drive the ecosystem UI.
+
+==================================================
+10. BRAND TOKENS
+==================================================
+
+Establish basic design tokens without building the final design.
+
+Primary foundation:
+
+- deep navy
+- white
+- soft neutral background
+- dark text
+- muted text
+
+Accent families:
+
+AI Career Counselling:
+cyan / blue
+
+CareerIgnite:
+purple / magenta
+
+GradLM:
+orange / gold
+
+MentoraLM ecosystem:
+controlled combination of the three
+
+Do not use gradients everywhere.
+
+Do not create a rainbow website.
+
+The logo will be the primary reference for the final colour relationships.
+
+==================================================
+11. TYPOGRAPHY
+==================================================
+
+Prepare a simple typography system.
+
+Use a clean modern sans-serif for UI/body text.
+
+Use the established MentoraLM display serif direction for major editorial headlines if the required font is available without unnecessary complexity.
+
+Do not spend time designing typography specimens.
+
+Just establish reusable heading/body/label styles.
+
+==================================================
+12. LOGO
+==================================================
+
+Prepare the project to use the official MentoraLM logo.
+
+Do not recreate the logo.
+
+Do not generate a replacement logo.
+
+Create a reusable Logo component so the actual asset can be supplied/changed without modifying the navbar implementation.
+
+If the official logo asset is not currently available inside this new project, create a clearly marked asset location:
+
+src/assets/branding/
+
+and make the Logo component easy to update later.
+
+Do not use a fake logo.
+
+==================================================
+13. RESPONSIVE FOUNDATION
+==================================================
+
+Establish sensible responsive breakpoints.
+
+The final site must support:
+
+- desktop
+- laptop
+- tablet
+- mobile
+
+But DO NOT spend Phase 0 effort polishing individual sections.
+
+Just ensure the architecture can support responsive layouts cleanly.
+
+Avoid horizontal overflow.
+
+==================================================
+14. ACCESSIBILITY FOUNDATION
+==================================================
+
+Establish:
+
+- semantic HTML
+- heading hierarchy
+- accessible navigation
+- keyboard focus handling
+- button/link semantics
+- mobile menu accessibility
+
+Future interactive product sections must be able to support keyboard and touch interaction.
+
+==================================================
+15. PERFORMANCE
+==================================================
+
+Because this project is being built in Replit Free mode:
+
+Keep the project lightweight.
+
+Do not install packages unless genuinely necessary.
+
+Do not create large generated assets.
+
+Do not add videos.
+
+Do not add external fonts unnecessarily.
+
+Do not add animation libraries during Phase 0.
+
+Keep the initial bundle clean.
+
+==================================================
+16. IMPORTANT: DO NOT BUILD THE DESIGN YET
+==================================================
+
+This is the most important instruction.
+
+Phase 0 is NOT a visual design phase.
+
+Do not try to impress me with:
+
+- gradients
+- animations
+- giant hero sections
+- decorative SVGs
+- module cards
+- glassmorphism
+- fancy backgrounds
+- placeholder illustrations
+
+Those will be designed deliberately in later phases.
+
+Build the architecture first.
+
+==================================================
+17. DO NOT IMPORT THE OLD WEBSITE
+==================================================
+
+There is an older project:
+
+MentoraLM-Website
+
+Do NOT copy its existing homepage structure.
+
+Do NOT recreate:
+
+- Foundation Showcase
+- Visual System showcase
+- generic module cards
+- old abstract module SVGs
+- old placeholder sections
+
+We are intentionally starting fresh.
+
+However, if any tiny utility or configuration is genuinely useful, it may be recreated cleanly rather than copied blindly.
+
+==================================================
+18. FUTURE PHASE PLAN
+==================================================
+
+This project will eventually be developed in controlled phases:
+
+PHASE 0
+Foundation + architecture
+CURRENT
+
+PHASE 1
+Brand/design system
+
+PHASE 2
+Hero
+
+PHASE 3
+MentoraLM Intelligence
+
+PHASE 4
+AI Career Counselling experience
+
+PHASE 5
+CareerIgnite experience
+
+PHASE 6
+GradLM experience
+
+PHASE 7
+MentoraLM ecosystem + upcoming modules
+
+PHASE 8
+How It Works + Menti
+
+PHASE 9
+Why MentoraLM + Resources + conversion
+
+PHASE 10
+Final responsive/performance/accessibility QA
+
+Do not implement future phases now.
+
+==================================================
+19. CODE QUALITY
+==================================================
+
+Prioritize:
+
+- clean TypeScript
+- reusable components
+- clear naming
+- minimal duplication
+- simple state management
+- maintainability
+- easy future modification
+
+Avoid overengineering.
+
+==================================================
+20. VERIFICATION
+==================================================
+
+After implementation:
+
+1. Run TypeScript/typecheck.
+2. Run production build.
+3. Verify the development preview starts.
+4. Verify desktop viewport.
+5. Verify mobile viewport.
+6. Verify navigation structure.
+7. Verify all routes load.
+8. Verify there is no horizontal overflow.
+9. Check browser console for new errors.
+
+Do not begin Phase 1.
+
+Do not add additional features.
+
+At completion, provide a concise report containing:
+
+- project structure created
+- routes created
+- components created
+- product data structure created
+- typecheck result
+- production build result
+- confirmation that Phase 1 has NOT started
+
+Remember:
+
+THIS IS FOUNDATION ONLY.
+
+Do not spend Replit resources designing the actual website yet.
